@@ -261,7 +261,7 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: rgb(14, 94, 57);
   text-decoration: underline;
 }
 a:hover {
@@ -10851,7 +10851,7 @@ body {
     padding-left: 17rem;
   }
 }
-h1, .h1,
+.h1,
 h2,
 .h2,
 h3,
