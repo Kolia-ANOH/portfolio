@@ -10896,7 +10896,6 @@ p.lead {
 
 @media (min-width: 992px) {
   #sideNav {
-    padding-left: 0;
     padding-right: 0;
     text-align: center;
     position: fixed;
@@ -10909,12 +10908,12 @@ p.lead {
   }
   #sideNav .navbar-brand {
     display: flex;
-    margin: auto auto 0;
+    margin: 2rem 0 0 0;
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: auto;
+    max-height: auto;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
