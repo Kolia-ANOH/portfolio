@@ -75,6 +75,20 @@ section.resume-section .resume-section-content {
 	font-size: 1.2rem;
 }
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: none;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
 @media (min-width: 992px) {
 
   h1 {
