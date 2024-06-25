@@ -27,7 +27,6 @@ nav {
 
 #sideNav .navbar-brand {
 	display: flex;
-	margin: auto auto 0;
 	padding: 0.5rem;
 }
 
@@ -35,6 +34,13 @@ nav {
   width: 60%;
   border: 0.5rem solid rgba(255, 255, 255, 0.2);
   border-radius: 10%;
+}
+
+.profile-mobile {
+  width: 30px;
+  height: 30px;
+  border: 0.2rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
 }
 
 .social-icons .social-icon {

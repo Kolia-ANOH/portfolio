@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', event => {
 } ); // fin de la fonction d'écoute de l'événement DOMContentLoaded
 
 // Activer le bouton de retour en haut de page
-let mybutton = document.getElementById("btn-back-to-top");
+let monbouton = document.getElementById("btn-back-to-top");
 
 // Afficher le bouton de retour en haut Lorsque l'utilisateur fait défiler le document de 20 px vers le bas
 window.onscroll = function () {
@@ -41,13 +41,13 @@ function scrollFunction() {
     document.body.scrollTop > 20 ||
     document.documentElement.scrollTop > 20
   ) {
-    mybutton.style.display = "block";
+    monbouton.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    monbouton.style.display = "none";
   }
 }
 // Retourner en haut de la page lors du clic sur le bouton
-mybutton.addEventListener("click", backToTop);
+monbouton.addEventListener("click", backToTop);
 
 function backToTop() {
   document.body.scrollTop = 0;
