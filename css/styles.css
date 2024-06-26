@@ -1,7 +1,7 @@
 body {
   font-weight: 500;
   color: #212529;
-  background-color: ;
+  background: rgb(211, 236, 246);
 }
 
 section.resume-section {
@@ -27,7 +27,7 @@ nav {
 
 #sideNav .navbar-brand {
 	display: flex;
-	padding: 0.5rem;
+	padding: 0.5rem 0;
 }
 
 .img-profile {
@@ -75,7 +75,7 @@ section.resume-section .resume-section-content {
 	width: 100%;
 }
 
-.subheading {
+.titre {
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 1.2rem;
@@ -120,7 +120,6 @@ section.resume-section .resume-section-content {
   }
 
   .contact {
-    font-weight: 600;
     font-size: 1.5rem;
   }
 
@@ -171,5 +170,57 @@ section.resume-section .resume-section-content {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+  }
+}
+
+/* Responsive pour écran mobile */
+
+@media (max-width: 991.98px) {
+
+  .social-icons .linkedin:hover {
+    background-color: #0e76a8;
+    color: #fff;
+  }
+
+  .social-icons .github:hover {
+    background-color: #040b14;
+    color: #fff;
+  }
+
+  .social-icons .facebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+  }
+
+  .titre {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .contact {
+    font-size: 1rem;
+  }
+
+  .contact a {
+    font-size: 1rem;
+  }
+
+  #btn-back-to-top {
+    display: block;
   }
 }

@@ -28,6 +28,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 } ); // fin de la fonction d'écoute de l'événement DOMContentLoaded
 
+
 // Activer le bouton de retour en haut de page
 let monbouton = document.getElementById("btn-back-to-top");
 
