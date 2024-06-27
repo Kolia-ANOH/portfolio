@@ -30,6 +30,10 @@ nav {
 	padding: 0.5rem 0;
 }
 
+.contact a {
+  color: #198754;
+}
+
 .img-profile {
   width: 60%;
   border: 0.5rem solid rgba(255, 255, 255, 0.2);
@@ -122,10 +126,6 @@ section.resume-section .resume-section-content {
   .contact {
     font-size: 1.5rem;
   }
-
-  .contact a {
-    color: #198754;
-  }
   
   body {
     padding-top: 0;
@@ -212,15 +212,35 @@ section.resume-section .resume-section-content {
     font-size: 1rem;
   }
 
-  .contact {
-    font-size: 1rem;
-  }
-
   .contact a {
     font-size: 1rem;
   }
 
   #btn-back-to-top {
     display: block;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  .contact {
+    font-size: 1rem;
+    display: block !important;
+  }
+
+  .contact p {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 1187px){
+
+  .contact {
+    font-size: 1.5rem;
+    display: block !important;
+  }
+
+  .contact p {
+    margin-bottom: 0 !important;
   }
 }
